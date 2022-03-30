@@ -1,3 +1,6 @@
+#ifndef CH2
+#define CH2
+
 #include <stdio.h>
 
 /**
@@ -15,12 +18,4 @@ void getstr(char s[], int limit);
  */
 void squeeze(char s[], int c);
 
-void getstr(char s[], int limit) {
-	int i;
-	char c;
-	for (i = 0; i < limit && (c = getchar()) != '\0' && c != '\n'; i++)
-	{
-		s[i] = c;
-	}
-	s[i] = '\0';
-}
+#endif

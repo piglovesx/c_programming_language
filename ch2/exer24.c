@@ -20,6 +20,6 @@ void squeeze2(char s[], char t[]) {
 	int i;
 
 	for (i = 0; i < MAXLINE && (c = t[i]) != '\0'; i++) {
-		squeeze(s, c);
+	    squeeze(s,c);
 	}
 }
