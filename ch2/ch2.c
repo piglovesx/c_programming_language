@@ -1,20 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  ch2.c
- *
- *    Description:  
- *
- *        Version:  1.0
- *        Created:  03/30/22 21:49:19
- *       Revision:  none
- *       Compiler:  gcc
- *
- *         Author:  YOUR NAME (), 
- *   Organization:  
- *
- * =====================================================================================
- */
 #include "ch2.h"
 
 void getstr(char s[], int limit) {
